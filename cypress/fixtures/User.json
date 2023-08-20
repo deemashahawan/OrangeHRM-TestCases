@@ -1,0 +1,22 @@
+{
+  "validUser": {
+    "Username": "Admin",
+    "Password": "admin123"
+  },
+  "invalidUsername":{
+    "Username": "deema",
+    "Password": "admin123"
+  },
+  "invalidUserPassword":{
+    "Username": "Admin",
+    "Password": "admin"
+  },
+  "EmptyFields":{
+    "Username": "",
+    "Password": ""
+  },
+  "SQLInjection":{
+    "Username": "Admin",
+    "Password": "' OR '1'='1"
+  }
+}
