@@ -18,7 +18,7 @@ describe('Admin page test cases', () => {
       it('add new user with valid inputs',()=>{
         const admin=new AdminPage();
         admin.elements.currentUser().invoke('text').then((user)=>{
-        admin.addNewUser('Admin',user,'Enabl','sal','ahmad123','ahmad123');
+        admin.addNewUser('Admin',user,'Enabl','Halash','hala123@','hala123@');
         })
       });
 
